@@ -7,8 +7,9 @@ img {
     object-fit: cover;
     margin: 30px 0;
     border-radius: 50px;
-    border: 2px solid #fff;
-    padding: 20px;
+    border: 12px solid #23213c;
+    padding: 10px;
+    background: white;
 }
 
 header h2 {
@@ -43,7 +44,7 @@ header h2 {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
 .typewriter h1 {
@@ -80,9 +81,8 @@ header h2 {
     }
 }
 
-
-@media screen and (max-width: 500px){
-    img{
+@media screen and (max-width: 500px) {
+    img {
         height: 300px;
     }
 }
