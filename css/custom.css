@@ -4,7 +4,6 @@ body {
 
 img {
     width: 100%;
-    height: 350px;
     object-fit: cover;
     margin: 30px 0;
     border-radius: 50px;
@@ -78,5 +77,12 @@ header h2 {
     }
     50% {
         border-color: orange
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    img{
+        height: 300px;
     }
 }
