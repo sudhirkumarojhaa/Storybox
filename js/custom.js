@@ -1,6 +1,6 @@
-
 $("#overlay").show();
 
-setTimeout(function(){
+setTimeout(function() {
   $("#overlay").fadeOut();
+  $("body").show(300);
 }, 5000);
