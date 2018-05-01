@@ -44,13 +44,13 @@ header h2 {
 .typewriter h3 {
     color: #000;
     font-family: "Courier";
-    font-size: 14px;
+    font-size: 34px;
     font-weight: 100;
     overflow: hidden;
     border-right: .15em solid orange;
     white-space: nowrap;
     margin: 0 auto;
-    animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
+    animation: typing 8s steps(30, end), blink-caret .5s step-end infinite;
 }
 
 /* The typing effect */
@@ -72,12 +72,15 @@ header h2 {
         border-color: transparent
     }
     50% {
-        border-color: orange
+        border-color: black
     }
 }
 
-@media screen and (max-width: 500px) {
-    img {
-        height: 350px;
+@media screen and (max-width: 768px) {
+    .gallery-grid img {
+        height: 250px;
+    }
+    .typewriter h3{
+        font-size: 12px;
     }
 }
