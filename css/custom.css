@@ -82,15 +82,8 @@ header h2 {
 }
 
 @media screen and (max-width: 768px) {
-<<<<<<< HEAD
-    .gallery-grid img {
-        height: 250px;
-    }
-    .typewriter h3{
-        font-size: 10px;
-=======
+
     .typewriter h3 {
-        font-size: 16px;
->>>>>>> ff9429587be82c6ae45d8d21b7d7c1887c5665fd
+        font-size: 12px;
     }
 }
