@@ -43,10 +43,7 @@ footer {
     z-index: 1001;
     display: none;
     background-color: #999;
-    background-image: url('../img/poster.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    
     display: flex;
     justify-content: center;
     align-items: center;
